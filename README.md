@@ -3,6 +3,13 @@
 
 # Linux Device Driver Development-Second Edition
 
+Install some additional packages:
+sudo apt install bc binutils bison dwarves flex gcc git gnupg2 gzip libelf-dev libncurses5-dev libssl-dev make openssl pahole perl-base rsync tar xz-utils
+
+Use mokutil to enroll a public signing key with secure boot
+sudo mokutil --import signing_key.x509
+
+
 <a href="https://www.packtpub.com/product/linux-device-driver-development-second-edition/9781803240060?utm_source=github&utm_medium=repository&utm_campaign=9781803240060"><img src="https://static.packt-cdn.com/products/9781803240060/cover/smaller" alt="Understanding and installing toolchains" height="256px" align="right"></a>
 
 This is the code repository for [Linux Device Driver Development-Second Edition](https://www.packtpub.com/product/linux-device-driver-development-second-edition/9781803240060?utm_source=github&utm_medium=repository&utm_campaign=9781803240060), published by Packt.
