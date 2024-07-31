@@ -36,5 +36,5 @@ remove_%:
 	sudo rmmod $*.ko
 
 
-info:
-	modinfo $(wildcard *.ko)
+info_%:
+	modinfo $*.ko
